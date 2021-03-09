@@ -139,26 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="binary_search.cpp" />
-    <ClCompile Include="deck.cpp" />
     <ClCompile Include="functionPointer.cpp" />
-    <ClCompile Include="list.cpp" />
-    <ClCompile Include="map.cpp" />
-    <ClCompile Include="map2.cpp" />
-    <ClCompile Include="mutating_algorithm.cpp" />
-    <ClCompile Include="non-mutating_algorithm.cpp" />
-    <ClCompile Include="numeric_algorithm.cpp" />
-    <ClCompile Include="priority_queue.cpp" />
-    <ClCompile Include="queue.cpp" />
-    <ClCompile Include="set.cpp" />
-    <ClCompile Include="set_union.cpp" />
-    <ClCompile Include="sort_algorithm.cpp" />
-    <ClCompile Include="stack.cpp" />
-    <ClCompile Include="vector1.cpp" />
-    <ClCompile Include="vector2.cpp" />
+    <ClCompile Include="grade.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="split.cpp" />
+    <ClCompile Include="Student_info.cpp" />
+    <ClCompile Include="Vec.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="grade.h" />
     <ClInclude Include="linkedList.h" />
+    <ClInclude Include="median.h" />
+    <ClInclude Include="split.h" />
+    <ClInclude Include="Student_info.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
